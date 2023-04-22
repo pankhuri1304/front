@@ -7,7 +7,25 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Add some CSS styles to adjust the layout
+st.markdown("""
+    <style>
+        /* Adjust the font size on smaller screens */
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+        }
 
+        /* Adjust the layout on smaller screens */
+        @media only screen and (max-width: 600px) {
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+""", unsafe_allow_html=True)
 
                     #remove top spacing
 st.markdown("""
@@ -178,7 +196,7 @@ st.markdown("""
 st.markdown("""
                 <style>
                     .ssn-info{
-                        width: 520px;
+                        width: 100%;
                         font-size:20px !important;
                         color: black;
                         text-align: justify; 
