@@ -7,25 +7,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Add some CSS styles to adjust the layout
-st.markdown("""
-    <style>
-        /* Adjust the font size on smaller screens */
-        @media only screen and (max-width: 600px) {
-            body {
-                font-size: 16px;
-            }
-        }
-
-        /* Adjust the layout on smaller screens */
-        @media only screen and (max-width: 600px) {
-            body {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-    </style>
-""", unsafe_allow_html=True)
 
                     #remove top spacing
 st.markdown("""
@@ -136,7 +117,7 @@ with nav_container:
 st.write("")
 st.write("")
 st.markdown(
-    "<center>" '<p> <img src= "https://cdn.pixabay.com/photo/2016/07/22/16/39/olympia-1535219__480.jpg" style="width:100%;height:450px; border: 1px solid #e6e6e6;"> </p>',
+    "<center>" '<p> <img src= "https://cdn.pixabay.com/photo/2016/07/22/16/39/olympia-1535219__480.jpg" style="width:100%;height:100%; border: 1px solid #e6e6e6;"> </p>',
     unsafe_allow_html=True)
 
                 #Style and heading
