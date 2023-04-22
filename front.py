@@ -309,7 +309,6 @@ with footer_container:
     st.markdown(
         """ <hr>
             <hr>
-            <hr>
         <div class ="footer1"><center>
             <h4> <center> About Us </h4>
             <p>This website is developed by Ms. Pankhuri, Ms. Isha Agarwal, and Mr. Madhav Agarwal as our
