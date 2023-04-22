@@ -301,6 +301,7 @@ footer_container.markdown(
         color:#d9d9d9;
         font-family: times new roman;
         font-size: 17px;  
+        width: 100%
 
     }
     
