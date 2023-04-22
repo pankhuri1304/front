@@ -7,24 +7,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.markdown("""
-    <style>
-        /* Adjust the font size on smaller screens */
-        @media only screen and (max-width: 600px) {
-            body {
-                font-size: 16px;
-            }
-        }
 
-        /* Adjust the layout on smaller screens */
-        @media only screen and (max-width: 600px) {
-            body {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-    </style>
-""", unsafe_allow_html=True)
 
                     #remove top spacing
 st.markdown("""
