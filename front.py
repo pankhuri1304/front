@@ -43,7 +43,7 @@ with nav_container:
         .nav a {
             font-weight:bold;
             font-size: 1.13rem;
-            font-family:roboto slab;
+            font-family:times new roman;
             margin-right: 1rem;
             margin-left: .5rem;
             color: white;
@@ -109,13 +109,7 @@ with nav_container:
 
                 "</div>"
                 "<div id='output'></div>"
-                '''
-                <script>
-document.getElementById('home-button').onclick = function() {
-    document.getElementById('output').innerHTML = 'Home button clicked!';
-};
-</script>
-                '''
+                
 
                 ,unsafe_allow_html=True)
 
@@ -135,7 +129,7 @@ st.markdown("""
                     font-size:60px !important;
                     color: #0099e6;
                     text-align:center;
-                    font-family: roboto slab;
+                    font-family: times new roman;
                 }
             </style>
             """, unsafe_allow_html=True)
@@ -147,7 +141,7 @@ st.markdown("""
                     font-size:20px !important;
                     color: black;
                     text-align: justify;
-                    font-family: roboto slab;
+                    font-family: times new roman;
                 }
             </style>
             """, unsafe_allow_html=True)
@@ -164,7 +158,7 @@ st.markdown("""
                     font-size:50px !important;
                     color: #0099e6;
                     text-align:center;
-                    font-family: roboto slab;
+                    font-family: times new roman;
                 }
             </style>
             """, unsafe_allow_html=True)
@@ -173,7 +167,7 @@ st.markdown('<h1 class="sltctg"><b>Select Your Category</b> </h1>', unsafe_allow
 st.markdown("""
                 <style>
                 .ssn-name{
-                    font-family: roboto slab;  
+                    font-family: times new roman;  
                     color: #ff8000;
                     padding-bottom: 30px;
                     padding-top: 15px;
@@ -188,7 +182,7 @@ st.markdown("""
                         font-size:20px !important;
                         color: black;
                         text-align: justify; 
-                        font-family: roboto slab;    
+                        font-family: times new roman;    
                 }
                 </style>
                 """, unsafe_allow_html=True)
@@ -268,7 +262,7 @@ footer_container.markdown(
     }
 
     .footer1 h4{
-                    font-family: roboto slab;  
+                    font-family: times new roman;  
                     color: white;
                     padding-bottom: 30px;
                     padding-top: 38px;
