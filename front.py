@@ -249,6 +249,21 @@ footer_container = st.container()
 footer_container.markdown(
     """
     <style>
+    
+         /* Adjust the font size on smaller screens */
+        @media only screen and (max-width: 600px) {
+            .footer1 p {
+                font-size: 16px;
+            }
+        }
+        /* Adjust the layout on smaller screens */
+        @media only screen and (max-width: 600px) {
+            .footer1 p {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    
     .footer {
         position: float;
         width: 100%;
