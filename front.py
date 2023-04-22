@@ -117,7 +117,7 @@ with nav_container:
 st.write("")
 st.write("")
 st.markdown(
-    "<center>" '<p> <img src= "https://cdn.pixabay.com/photo/2016/07/22/16/39/olympia-1535219__480.jpg" style="width:100%;height:100%; border: 1px solid #e6e6e6;"> </p>',
+    "<center>" '<p> <img src= "https://cdn.pixabay.com/photo/2016/07/22/16/39/olympia-1535219__480.jpg" style="width:100%;height:80%; border: 1px solid #e6e6e6;"> </p>',
     unsafe_allow_html=True)
 
                 #Style and heading
