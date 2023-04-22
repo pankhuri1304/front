@@ -7,36 +7,10 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Set theme configuration
-def set_theme():
-    config = st.config
-    # Change default theme to "light"
-    config.set_option('theme', 'light')
-
-# Call set_theme() function
-set_theme()
+st.markdown('''<meta name="viewport" content="width=device-width, initial-scale=1.0">''', unsafe_allow_html=True)
 
 
-# Define the HTML code for the website
-html_code = """
-<iframe src="https://example.com" width="100%" height="100%" frameborder="0" ></iframe>
-"""
 
-# Define the CSS code to disable responsive design for mobile devices
-css_code = """
-@media only screen and (max-width: 767px) {
-  body {
-    width: 100%;
-  }
-  iframe {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-}
-"""
-
-# Display the website with the disabled responsive design
-st.markdown(f'<style>{css_code}</style>{html_code}', unsafe_allow_html=True)
                     #remove top spacing
 st.markdown("""
         <style>
