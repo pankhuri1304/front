@@ -296,8 +296,7 @@ footer_container.markdown(
     .footer1 p{
         text-align:center;
         padding-top:0px;
-        margin-left:9rem;
-        margin-right: 9rem;
+        
         color:#d9d9d9;
         font-family: times new roman;
         font-size: 17px;  
