@@ -7,6 +7,15 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Set theme configuration
+def set_theme():
+    config = st.config
+    # Change default theme to "light"
+    config.set_option('theme', 'light')
+
+# Call set_theme() function
+set_theme()
+
 
 
                     #remove top spacing
