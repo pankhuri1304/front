@@ -294,7 +294,7 @@ footer_container.markdown(
     }
     
     .footer1 p{
-        text-align:justify;
+        text-align:center;
         padding-top:0px;
         
         color:#d9d9d9;
