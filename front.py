@@ -191,7 +191,7 @@ st.markdown("# <center><h1 class='ssn-name'>Summer Olympics</h1>", unsafe_allow_
 col1, col2 = st.columns(2)
 with col1:
     st.write(
-        "<center>" '<a href="https://isha-agarwal-19-summer-medalsummer-ch6etc.streamlit.app/" target="_blank"> <img src= "https://www.vrfitnessinsider.com/wp-content/uploads/2018/06/anigif_enhanced-buzz-4220-1343595880-0.gif" style="width:100%;height:250px;" > </a>',
+        "<center>" '<a href="https://pankhuri1304-summer-summer-analysis-mnld8z.streamlit.app/" target="_blank"> <img src= "https://www.vrfitnessinsider.com/wp-content/uploads/2018/06/anigif_enhanced-buzz-4220-1343595880-0.gif" style="width:100%;height:250px;" > </a>',
         unsafe_allow_html=True)
 with col2:
     st.markdown(
@@ -203,7 +203,7 @@ st.markdown('# <center><h1 class="ssn-name">Winter Olympics</h1>', unsafe_allow_
 col1, col2 = st.columns(2)
 with col1:
     st.write(
-        "<center>" '<a href="https://isha-agarwal-19-winter-medalwinter-spua7v.streamlit.app/", target="_blank"> <img src= "https://i.gifer.com/RSOq.gif" style="width:100%;height:250px;" > </a>',
+        "<center>" '<a href="https://pankhuri1304-winter-winter-t5xv20.streamlit.app/", target="_blank"> <img src= "https://i.gifer.com/RSOq.gif" style="width:100%;height:250px;" > </a>',
         unsafe_allow_html=True)
 with col2:
     st.markdown(
@@ -215,7 +215,7 @@ st.markdown('# <center><h1 class="ssn-name">Overall Analysis</h1>', unsafe_allow
 col1, col2 = st.columns(2)
 with col1:
     st.write(
-        "<center>" '<a href="https://isha-agarwal-19-overall-medaloverall-ribyis.streamlit.app/", target="_blank"> <img src= "https://themarketingbirds.com/wp-content/uploads/2021/07/1627242520209.gif" style="width:100%;height:250px;" > </a>',
+        "<center>" '<a href="https://pankhuri1304-overall-overall-analysis-ed8j1t.streamlit.app/", target="_blank"> <img src= "https://themarketingbirds.com/wp-content/uploads/2021/07/1627242520209.gif" style="width:100%;height:250px;" > </a>',
         unsafe_allow_html=True)
 
 with col2:
