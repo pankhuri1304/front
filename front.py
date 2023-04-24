@@ -7,6 +7,29 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Hide the Streamlit menu bar
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+# Set the Streamlit theme to light mode
+st.write("""
+    <style>
+    .streamlit-legacy-theme {
+        color: #262730;
+        background-color: #f0f2f6;
+    }
+    body {
+        background-image: url("your_image_url_here");
+        background-size: cover;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 
                     #remove top spacing
 st.markdown("""
