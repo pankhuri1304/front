@@ -20,12 +20,8 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.write("""
     <style>
     .streamlit-legacy-theme {
-        color: #262730;
-        background-color: #f0f2f6;
-    }
-    body {
-        background-image: url("your_image_url_here");
-        background-size: cover;
+        color: black;
+        background-color: white;
     }
     </style>
     """, unsafe_allow_html=True)
